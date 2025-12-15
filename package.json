@@ -1,10 +1,10 @@
 {
-  "name": "academic-pages",
+  "name": "mohiuddin-khan-shiam-site",
   "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "description": "Build scripts for site assets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/mohiuddin-khan-shiam/mohiuddin-khan-shiam.github.io"
   },
   "keywords": [
     "jekyll",
@@ -12,14 +12,13 @@
     "minimal"
   ],
   "contributors": [
-    "Michael Rose",
-    "Robert Zupko"
+    "S. M. Mohiuddin Khan Shiam"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/academicpages/academicpages.github.io/issues"
+    "url": "https://github.com/mohiuddin-khan-shiam/mohiuddin-khan-shiam.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://mohiuddin-khan-shiam.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },

@@ -4,7 +4,7 @@ This repository hosts my personal website at **[https://mohiuddin-khan-shiam.git
 
 ## About the Website
 
-This site is a **multi-page Jekyll website** built on **AcademicPages** (a fork of the Minimal Mistakes theme).
+This site is a **multi-page Jekyll website** built as a clean, professional personal homepage.
 
 - **Name**: S. M. Mohiuddin Khan Shiam
 - **Role**: Research Associate at Global History Lab (CRASSH), University of Cambridge

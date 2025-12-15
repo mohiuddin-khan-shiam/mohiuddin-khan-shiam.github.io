@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 title: "S. M. Mohiuddin Khan Shiam"
 excerpt: "Research Associate at Global History Lab (CRASSH), University of Cambridge"
-author_profile: true
+author_profile: false
 header:
   overlay_color: "#0f172a"
   overlay_filter: 0.2
@@ -41,22 +41,38 @@ feature_row_2:
     btn_class: "btn--primary"
 ---
 
-<p>
-  I’m a Research Associate at the Global History Lab (CRASSH), University of Cambridge, and I’m based in Dhaka, Bangladesh.
-  My work sits at the intersection of technology, research, and social impact, with a strong commitment to the United Nations Sustainable Development Goals.
-</p>
+<section class="home-intro" aria-label="Homepage introduction">
+  <div class="home-intro__media">
+    <img
+      src="{{ '/images/profile.jpg' | relative_url }}"
+      alt="S. M. Mohiuddin Khan Shiam"
+      class="home-intro__avatar"
+      loading="eager"
+      fetchpriority="high"
+    />
+  </div>
 
-<p>
-  <a href="/files/cv.pdf" class="btn btn--primary btn--large" download>Download CV</a>
-  <a href="/about/" class="btn btn--inverse btn--large">About me</a>
-</p>
+  <div class="home-intro__content">
+    <p class="home-intro__kicker">Research • Technology • Social impact</p>
+    <p>
+      I’m a Research Associate at the Global History Lab (CRASSH), University of Cambridge, based in Dhaka, Bangladesh.
+      I care about building practical, responsible technology that improves how people learn, work, and live—aligned with the United Nations Sustainable Development Goals.
+    </p>
 
-<h2>Focus</h2>
+    <div class="home-intro__actions">
+      <a href="{{ '/files/cv.pdf' | relative_url }}" class="btn btn--primary btn--large" download>Download CV</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn btn--inverse btn--large">Read my story</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn--light-outline btn--large">Contact</a>
+    </div>
+  </div>
+</section>
+
+<h2>Focus areas</h2>
 
 <ul>
-  <li>AI + social impact</li>
-  <li>Research and interdisciplinary thinking</li>
-  <li>Open source contributions and developer tooling</li>
+  <li>AI and data for real-world impact</li>
+  <li>Interdisciplinary research and clear communication</li>
+  <li>Open source, developer tooling, and community contribution</li>
 </ul>
 
 {% include feature_row %}

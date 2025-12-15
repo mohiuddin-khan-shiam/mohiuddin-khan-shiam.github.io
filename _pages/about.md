@@ -1,29 +1,37 @@
 ---
 permalink: /about/
 title: "About Me"
-excerpt: "About Me"
+excerpt: "A brief story of my journey in research, technology, and social impact."
 author_profile: true
 redirect_from: 
   - /about.html
 ---
 
-I am S. M. Mohiuddin Khan Shiam, a dedicated individual with a strong passion for using technology and innovation to improve society. My pursuits go beyond academics and include a deep interest in research, social service, and contributing to global progress.
+I’m S. M. Mohiuddin Khan Shiam. At the heart of my work is a simple goal: to use technology and innovation in ways that improve society.
 
-Since childhood, my curiosity about technology and space has fueled my drive to explore and innovate. I am committed to supporting the United Nations Sustainable Development Goals, focusing on critical areas such as education, health, human rights, environmental protection, and animal welfare. By integrating multidisciplinary knowledge and critical thinking, I aspire to create meaningful solutions that make a positive impact.
+That mindset began early. As a child, I was drawn to technology and space because they represent possibility—problems worth exploring, ideas worth building, and questions worth chasing with discipline and curiosity.
 
-In my journey, I have gained leadership, communication, and strategic planning skills through various professional and extracurricular roles. These experiences have taught me the importance of collaboration, adaptability, and continuous learning. I believe challenges offer valuable lessons and that true education reflects in how we behave and interact with others.
+Today, I carry that same curiosity into research, social service, and long-term impact. I’m committed to supporting the United Nations Sustainable Development Goals, with particular attention to education, health, human rights, environmental protection, and animal welfare. I enjoy working across disciplines, because the most meaningful solutions usually sit at the intersection of fields.
 
-I owe my achievements to the support and guidance of my parents, siblings, and teachers, who have been a constant source of encouragement. Their values have shaped me into a humble and driven individual who believes in the power of perseverance and kindness.
+Along the way, professional and extracurricular responsibilities helped me develop leadership, communication, and strategic planning skills. Those experiences reinforced my belief that collaboration, adaptability, and continuous learning are not “extras”—they are the foundation of doing good work.
 
-In my leisure time, I enjoy traveling, playing football, and immersing myself in the magical world of Harry Potter. These activities bring joy and allow me to reflect on the lessons I have learned through my struggles, which have strengthened my character and resolve.
+I’m grateful to my parents, siblings, and teachers for their support and guidance. Their values shaped how I approach challenges: with humility, perseverance, and kindness.
 
-I believe in the potential of human kindness and the transformative power of innovation to create a better future. I look forward to connecting with individuals who share the vision of building a brighter, more equitable world.
+Outside of work, I enjoy traveling, playing football, and spending time in the world of Harry Potter. These moments keep me grounded and remind me that growth often comes from reflection.
+
+I believe deeply in the potential of human kindness and the transformative power of innovation. I’m always open to connecting with people who care about building a brighter, more equitable future.
+
+## At a glance
+
+- Research Associate at Global History Lab (CRASSH), University of Cambridge
+- Based in Dhaka, Bangladesh
+- Interests: research, technology, and social impact (aligned with the United Nations Sustainable Development Goals)
 
 ## Education
 
 **St. Xavier's School, Chittagong**  
 *Primary Education* (Jan 2007 - Dec 2011)
-- I had the privilege of completing my primary education at St. Xavier's School, a distinguished institution known for its rich heritage and commitment to academic excellence. Established in 1956, the school has a long-standing tradition of nurturing students with a holistic approach, emphasizing both academic success and moral values. Surrounded by the serene beauty of Pahartali, St. Xavier's provided a nurturing environment that played a crucial role in shaping the foundation of my educational journey.
+- I completed my primary education at St. Xavier's School, an institution known for its academic excellence and values-based education. Established in 1956 and located in Pahartali, it provided a supportive environment that shaped the foundation of my learning.
 
 **Nasirabad Govt. High School, Chattogram**  
 *Primary Education Completion, Junior School Certificate, and Secondary School Certificate, Science* (Jan 2012 - Feb 2018)
@@ -61,7 +69,6 @@ I believe in the potential of human kindness and the transformative power of inn
 
 **Research Associate**  
 *Global History Lab, CRASSH, University of Cambridge*
-<br>
 
 ## Competences
 **Skills**: Leadership, Critical Thinking, Communication, Problem-Solving, Teamwork  
