@@ -239,6 +239,10 @@ collections:
   certifications:
     output: true
     permalink: /:collection/:path/
+  open_source:
+    output: true
+    permalink: /open-source/:path/
+    sort_by: order
 
 
 # These settings control how pages and collections are included in the site
@@ -293,6 +297,14 @@ defaults:
   - scope:
       path: ""
       type: certifications
+    values:
+      layout: single
+      author_profile: true
+
+  # _open_source
+  - scope:
+      path: ""
+      type: open_source
     values:
       layout: single
       author_profile: true

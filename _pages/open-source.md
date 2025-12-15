@@ -1,23 +1,26 @@
 ---
-layout: single
+layout: archive
 title: "Open Source"
 permalink: /open-source/
 author_profile: true
 ---
 
-I’m passionate about contributing to tools and platforms that help developers and communities around the world.
+I contribute to open-source projects that are widely used by developers and communities. I enjoy small, careful improvements that make tools easier to use, more reliable, or better documented.
 
-## Highlights
+{% include base_path %}
 
-### Microsoft ecosystem
+{% assign categories = "Microsoft Ecosystem|Artificial Intelligence & Machine Learning|Cloud Infrastructure & DevOps|Research & Education" | split: "|" %}
+{% for cat in categories %}
+{% assign cat_items = site.open_source | where: "category", cat | sort: "order" %}
+{% if cat_items.size > 0 %}
+## {{ cat }}
 
-- **Visual Studio Code**
-  - Project: https://github.com/microsoft/vscode
-  - Related writing: [Contributing to Visual Studio Code (v1.102)](/posts/2025/02/vscode-contribution/)
+{% for post in cat_items %}
+  {% include archive-single.html %}
+{% endfor %}
 
-- **vcpkg**
-  - Project: https://github.com/microsoft/vcpkg
-  - Related writing: [My Contribution to Vcpkg - July 2025 Update](/posts/2025/07/vcpkg-contribution/)
+{% endif %}
+{% endfor %}
 
 ## Profiles
 
@@ -26,4 +29,4 @@ I’m passionate about contributing to tools and platforms that help developers 
 - **Hugging Face**: https://huggingface.co/mohiuddin-khan-shiam
 - **Kaggle**: https://www.kaggle.com/smmohiuddinkhanshiam
 
-If you’d like to collaborate on open-source work, feel free to reach out via the [Contact](/contact/) page.
+If you’d like to collaborate on open-source work, feel free to reach out via the [Contact]({{ '/contact/' | relative_url }}) page.
