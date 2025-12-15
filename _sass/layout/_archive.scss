@@ -166,6 +166,38 @@
   margin-bottom: 2em;
   font-size: 1.25rem;
 
+  .archive__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.25rem;
+    border: 1px solid var(--global-border-color);
+    border-top: 4px solid var(--global-base-color);
+    border-radius: 0.75rem;
+    background: var(--global-bg-color);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .archive__item-excerpt i {
+    color: var(--global-base-color);
+    margin-right: 0.5rem;
+  }
+
+  .archive__item-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .archive__item-body p:last-child {
+    margin-top: auto;
+  }
+
+  .archive__item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(#000, 0.10);
+  }
+
   @include breakpoint($small) {
     margin-bottom: 0;
     @include gallery(4 of 12);

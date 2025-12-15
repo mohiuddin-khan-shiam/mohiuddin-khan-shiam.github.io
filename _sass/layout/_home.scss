@@ -31,7 +31,8 @@
 
 .home-intro__subtitle {
   margin: 0.35rem 0 0.85rem;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
+  opacity: 0.85;
 }
 
 .home-intro__content p {
@@ -52,7 +53,7 @@
   margin-top: 0.75rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .home-intro {
     grid-template-columns: 1fr;
     text-align: center;

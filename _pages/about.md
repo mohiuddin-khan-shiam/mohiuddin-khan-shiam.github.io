@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I’m S. M. Mohiuddin Khan Shiam. At the heart of my work is a simple goal: to use technology and innovation in ways that improve society.
+I’m S. M. Mohiuddin Khan Shiam. I care about using technology and innovation in ways that genuinely help people and improve society.
 
-That mindset began early. As a child, I was drawn to technology and space because they represent possibility, problems worth exploring, ideas worth building, and questions worth chasing with discipline and curiosity.
+That mindset started early. As a child, I was drawn to technology and space because they felt full of possibility. They were full of problems worth exploring and ideas worth building, and they pushed me to stay curious and disciplined.
 
-Today, I carry that same curiosity into research, social service, and long-term impact. I’m committed to supporting the United Nations Sustainable Development Goals, with particular attention to education, health, human rights, environmental protection, and animal welfare. I enjoy working across disciplines, because the most meaningful solutions usually sit at the intersection of fields.
+Today, I carry that same curiosity into research, social service, and long-term impact. I’m committed to supporting the United Nations Sustainable Development Goals, with particular attention to education, health, human rights, environmental protection, and animal welfare. I enjoy working across disciplines because the most meaningful solutions usually sit at the intersection of fields.
 
 Along the way, professional and extracurricular responsibilities helped me develop leadership, communication, and strategic planning skills. Those experiences reinforced my belief that collaboration, adaptability, and continuous learning are not “extras”. They are the foundation of doing good work.
 

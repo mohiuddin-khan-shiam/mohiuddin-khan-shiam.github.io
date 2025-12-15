@@ -23,7 +23,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    filter: brightness(0.92);
   }
 
   .icon {
@@ -55,6 +55,7 @@
     &:hover {
       color: #fff !important;
       border-color: var(--global-text-color-light);
+      background-color: var(--global-base-color);
     }
   }
 
