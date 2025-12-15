@@ -4,21 +4,27 @@ This repository hosts my personal website at **[https://mohiuddin-khan-shiam.git
 
 ## About the Website
 
-- **Name**: S.M. Mohiuddin Khan Shiam
-- **Profession/Focus**: AI Enthusiast & Researcher
-- **Education**: Computer Science graduate from BRAC University
-- **Key Interests**:
-  - Quantum Computing & Quantum Machine Learning
-  - Blockchain
-  - Natural Language Processing (NLP)
-  - Bioinformatics
-  - Internet of Things (IoT)
-  - Software Engineering
-  - Ethical Hacking
-  - High-Performance Computing (HPC)
-- **Current Work**: AI Projects
+This site is a **multi-page Jekyll website** built on **AcademicPages** (a fork of the Minimal Mistakes theme).
 
-The website showcases my **bio**, **areas of interest**, and **contact information**. It's built with **HTML**, **CSS**, and a little **JavaScript** (all in one file, `index.html`).
+- **Name**: S. M. Mohiuddin Khan Shiam
+- **Role**: Research Associate at Global History Lab (CRASSH), University of Cambridge
+- **Location**: Dhaka, Bangladesh
+- **Focus**: AI + social impact, research, open source, and teaching
+
+## How to update content
+
+- **Home page**: `index.html` (Jekyll front matter + content)
+- **About page**: `_pages/about.md`
+- **Projects**: `_portfolio/` (one Markdown file per project)
+- **Publications**: `_publications/` (one Markdown file per publication)
+- **Teaching**: `_teaching/` (one Markdown file per entry)
+- **Blog posts**: `_posts/` (one Markdown file per post)
+- **Navigation**: `_data/navigation.yml`
+- **Profile photo**: `images/profile.jpg`
+
+## CV
+
+The CV is linked as a direct download from the navigation bar.
 
 ## Getting Started
 

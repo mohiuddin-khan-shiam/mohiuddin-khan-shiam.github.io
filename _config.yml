@@ -1,0 +1,356 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # Currently available options are "default", "air"
+title                    : "S. M. Mohiuddin Khan Shiam"
+title_separator          : "-"
+name                     : &name "S. M. Mohiuddin Khan Shiam"
+description              : &description "Research Associate at Global History Lab (CRASSH), University of Cambridge"
+url                      : "https://mohiuddin-khan-shiam.github.io" # The base hostname & protocol for your site
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "mohiuddin-khan-shiam/mohiuddin-khan-shiam.github.io"
+
+# Site Author
+author:
+  # Biographic information
+  avatar           : "profile.jpg"
+  name             : "S. M. Mohiuddin Khan Shiam"
+  pronouns         : ""
+  bio              : "Research Associate at Global History Lab, CRASSH, University of Cambridge"
+  location         : "Dhaka, Bangladesh"
+  employer         : "BRAC University"
+  uri              : # URL
+  email            : "mohiuddin.khan.shiam@gmail.com"
+
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=PxNOguMAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0009-0005-5504-2595"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/S-M-Mohiuddin-Khan-Shiam"
+  scopus           : # URL
+  zotero           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "mohiuddin-khan-shiam"
+  kaggle           : "smmohiuddinkhanshiam"
+  stackoverflow    : # User number
+  huggingface      : "mohiuddin-khan-shiam"
+
+  # Social media
+  bluesky          : # Username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "s-m-mohiuddin-khan-shiam"
+  mastodon         : # URL
+  medium           : "mohiuddin.khan.shiam"
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : "Shiam_ID"
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+  classcentral     : "shiam"
+  rosalind         : "shiam"
+  quora            : "S-M-Mohiuddin-Khan-Shiam"
+
+# Publication Category
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "enabled"
+talkmap_link             : false
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+atom_feed:
+  hide                   : false
+  path                   :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter "Shiam_ID"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Social media default site image
+og_description           :  # Social media default site image description
+social:
+  type                   : Person
+  name                   : "S. M. Mohiuddin Khan Shiam"
+  links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/s-m-mohiuddin-khan-shiam/"
+    - "https://github.com/mohiuddin-khan-shiam"
+    - "https://scholar.google.com/citations?user=PxNOguMAAAAJ"
+    - "https://www.researchgate.net/profile/S-M-Mohiuddin-Khan-Shiam"
+    - "https://x.com/Shiam_ID"
+    - "https://orcid.org/0009-0005-5504-2595"
+    - "https://huggingface.co/mohiuddin-khan-shiam"
+    - "https://www.classcentral.com/@shiam"
+    - "https://www.kaggle.com/smmohiuddinkhanshiam"
+    - "https://rosalind.info/users/shiam/"
+    - "https://www.quora.com/profile/S-M-Mohiuddin-Khan-Shiam"
+    - "https://medium.com/@mohiuddin.khan.shiam"
+
+# Analytics
+analytics:
+  provider               :  "false"
+  google:
+    tracking_id          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# These settings control the types of collections used by the template
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+
+# These settings control how pages and collections are included in the site
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

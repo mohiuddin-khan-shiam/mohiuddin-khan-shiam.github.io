@@ -1,325 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Shiam - AI Enthusiast</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Official website of Shiam (S.M. Mohiuddin Khan Shiam), an AI Enthusiast currently working on AI projects and learning advanced technologies."
-  />
-  <meta name="keywords" content="Shiam, AI, ML, Quantum Computing, Blockchain, NLP, Bioinformatics, IoT, Ethical Hacking, HPC, BRAC University" />
-  <meta name="author" content="S.M. Mohiuddin Khan Shiam" />
+---
+layout: splash
+permalink: /
+title: "S. M. Mohiuddin Khan Shiam"
+excerpt: "Research Associate at Global History Lab (CRASSH), University of Cambridge"
+author_profile: true
+header:
+  overlay_color: "#0f172a"
+  overlay_filter: 0.2
+feature_row:
+  - title: "Publications"
+    excerpt: "Selected writing and research outputs."
+    url: /publications/
+    btn_label: "View publications"
+    btn_class: "btn--primary"
+  - title: "Projects"
+    excerpt: "Software, data, and research projects."
+    url: /portfolio/
+    btn_label: "View projects"
+    btn_class: "btn--primary"
+  - title: "Open Source"
+    excerpt: "Highlights from my contributions across the Microsoft ecosystem and beyond."
+    url: /open-source/
+    btn_label: "Explore contributions"
+    btn_class: "btn--primary"
+feature_row_2:
+  - title: "Teaching"
+    excerpt: "Python Programming, Data Science, and Machine Learning."
+    url: /teaching/
+    btn_label: "Teaching"
+    btn_class: "btn--primary"
+  - title: "Blog"
+    excerpt: "Writing on research, technology, and learning."
+    url: /year-archive/
+    btn_label: "Read posts"
+    btn_class: "btn--primary"
+  - title: "Contact"
+    excerpt: "For collaborations, research, and speaking opportunities."
+    url: /contact/
+    btn_label: "Get in touch"
+    btn_class: "btn--primary"
+---
 
-  <!-- Google Fonts (Optional) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-    rel="stylesheet"
-  />
+<p>
+  I’m a Research Associate at the Global History Lab (CRASSH), University of Cambridge, and I’m based in Dhaka, Bangladesh.
+  My work sits at the intersection of technology, research, and social impact, with a strong commitment to the United Nations Sustainable Development Goals.
+</p>
 
-  <style>
-    /* Basic Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
+<p>
+  <a href="/files/cv.pdf" class="btn btn--primary btn--large" download>Download CV</a>
+  <a href="/about/" class="btn btn--inverse btn--large">About me</a>
+</p>
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      color: #333;
-      background-color: #f7f7f7;
-    }
+<h2>Focus</h2>
 
-    /* Header & Navigation */
-    header {
-      background-color: #6200ee;
-      color: #fff;
-      padding: 1rem;
-    }
+<ul>
+  <li>AI + social impact</li>
+  <li>Research and interdisciplinary thinking</li>
+  <li>Open source contributions and developer tooling</li>
+</ul>
 
-    header nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+{% include feature_row %}
 
-    header nav .logo {
-      font-weight: 600;
-      font-size: 1.4rem;
-    }
-
-    header nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-    }
-
-    header nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 400;
-      transition: opacity 0.3s ease;
-    }
-
-    header nav a:hover {
-      opacity: 0.7;
-    }
-
-    /* Hero Section */
-    .hero {
-      text-align: center;
-      background: linear-gradient(45deg, #6200ee, #3700b3);
-      color: #fff;
-      padding: 4rem 1rem;
-    }
-
-    .hero h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 0.5rem auto;
-      line-height: 1.6;
-    }
-
-    /* About Section */
-    .about {
-      max-width: 1000px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-    }
-
-    .about h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      text-align: center;
-    }
-
-    .about p {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin: 0.5rem 0;
-      text-align: center;
-    }
-
-    .about blockquote {
-      font-style: italic;
-      color: #666;
-      text-align: center;
-      margin-top: 1.5rem;
-    }
-
-    /* Interests/Skills Section */
-    .interests {
-      max-width: 1000px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-    }
-
-    .interests h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-      font-size: 1.8rem;
-    }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-
-    .skill-card {
-      background: #fff;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      padding: 1rem;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-
-    .skill-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .skill-card h3 {
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-    }
-
-    /* Contact Section */
-    .contact {
-      max-width: 1000px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
-
-    .contact h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
-
-    .contact-icons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-
-    .contact-icons a {
-      color: #6200ee;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .contact-icons a:hover {
-      opacity: 0.7;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      background-color: #6200ee;
-      color: #fff;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-
-    footer p {
-      font-size: 0.9rem;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      header nav .logo {
-        font-size: 1.2rem;
-      }
-
-      .hero h1 {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <!-- ========================= HEADER ========================= -->
-  <header>
-    <nav>
-      <div class="logo">Shiam</div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- ========================= HERO SECTION ========================= -->
-  <section class="hero">
-    <h1>Hi, I'm Shiam!</h1>
-    <p>
-      AI Enthusiast &amp; Researcher — Currently working on AI Projects. Passionate
-      about discovering cutting-edge technologies to make a positive impact.
-    </p>
-  </section>
-
-  <!-- ========================= ABOUT SECTION ========================= -->
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I'm <strong>S.M. Mohiuddin Khan Shiam</strong>, a Computer Science graduate from
-      <strong>BRAC University</strong>. I'm currently delving into various advanced
-      technologies, including <em>Quantum Computing</em>, <em>Quantum Machine Learning</em>,
-      <em>Blockchain</em>, <em>Natural Language Processing</em>, <em>Bioinformatics</em>,
-      <em>IoT</em>, <em>Software Engineering</em>, <em>Ethical Hacking</em>, and <em>High-Performance Computing</em>.
-    </p>
-    <p>
-      Feel free to ask me about <strong>AI</strong> or <strong>Machine Learning</strong>. 
-      My goal is to explore the frontiers of technology and harness the power of
-      AI to solve real-world problems.
-    </p>
-    <blockquote>
-      “Any sufficiently advanced technology is indistinguishable from magic.”<br>
-      — Arthur C. Clarke
-    </blockquote>
-  </section>
-
-  <!-- ========================= INTERESTS/SKILLS SECTION ========================= -->
-  <section id="interests" class="interests">
-    <h2>Areas of Interest</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>Artificial Intelligence (AI)</h3>
-        <p>Expertise in building intelligent systems and exploring new AI paradigms.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Machine Learning</h3>
-        <p>Working with ML models, data preprocessing, and advanced techniques.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Quantum Computing</h3>
-        <p>Studying quantum algorithms and potential applications in AI/ML.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Blockchain</h3>
-        <p>Exploring decentralized applications and secure data management.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Natural Language Processing</h3>
-        <p>Passionate about language models, text processing, and language understanding.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Bioinformatics</h3>
-        <p>Working on computational approaches to solve biological challenges.</p>
-      </div>
-      <div class="skill-card">
-        <h3>IoT</h3>
-        <p>Integrating hardware and software for connected systems and devices.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Ethical Hacking</h3>
-        <p>Interested in cybersecurity, vulnerability assessments, and penetration testing.</p>
-      </div>
-      <div class="skill-card">
-        <h3>High-Performance Computing</h3>
-        <p>Leveraging massive parallelism to tackle complex computational tasks.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================= CONTACT SECTION ========================= -->
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Interested in collaborating or discussing AI, ML, or other emerging tech? Let's connect!</p>
-    <div class="contact-icons">
-      <a href="mailto:contact.shiam@gmail.com" target="_blank">Email: contact.shiam@gmail.com</a>
-      <a href="https://github.com/mohiuddin-khan-shiam" target="_blank">GitHub: mohiuddin-khan-shiam</a>
-      <a href="https://www.linkedin.com/in/s-m-mohiuddin-khan-shiam/" target="_blank">LinkedIn: s-m-mohiuddin-khan-shiam</a>
-    </div>
-  </section>
-
-  <!-- ========================= FOOTER ========================= -->
-  <footer>
-    <p>&copy; <span id="year"></span> Shiam - All Rights Reserved.</p>
-  </footer>
-
-  <script>
-    // Simple script to update the footer year automatically
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+{% include feature_row id="feature_row_2" %}
