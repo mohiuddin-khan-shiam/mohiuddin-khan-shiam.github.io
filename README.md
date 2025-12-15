@@ -1,33 +1,56 @@
 # mohiuddin-khan-shiam.github.io
 
-This repository hosts my personal website at **[https://mohiuddin-khan-shiam.github.io/](https://mohiuddin-khan-shiam.github.io/)**.
+This repository hosts my personal website:
 
-## About the Website
+https://mohiuddin-khan-shiam.github.io/
 
-This site is a **multi-page Jekyll website** built as a clean, professional personal homepage.
+## Tech
 
-- **Name**: S. M. Mohiuddin Khan Shiam
-- **Role**: Research Associate at Global History Lab (CRASSH), University of Cambridge
-- **Location**: Dhaka, Bangladesh
-- **Focus**: AI + social impact, research, open source, and teaching
+- **Jekyll** (GitHub Pages compatible)
+- **Minimal Mistakes / AcademicPages**-style structure (collections + archive pages)
 
-## How to update content
+## Where to update content
 
-- **Home page**: `index.html` (Jekyll front matter + content)
-- **About page**: `_pages/about.md`
-- **Projects**: `_portfolio/` (one Markdown file per project)
-- **Publications**: `_publications/` (one Markdown file per publication)
-- **Teaching**: `_teaching/` (one Markdown file per entry)
-- **Blog posts**: `_posts/` (one Markdown file per post)
+- **Home page**: `index.html`
+- **Pages**: `_pages/`
 - **Navigation**: `_data/navigation.yml`
+- **Blog posts**: `_posts/`
+- **Projects**: `_portfolio/`
+- **Publications**: `_publications/`
+- **Certifications**: `_certifications/`
+- **Open Source contributions**: `_open_source/`
+- **CV PDF**: `files/cv.pdf`
 - **Profile photo**: `images/profile.jpg`
 
-## CV
+## Key pages
 
-The CV is linked as a direct download from the navigation bar.
+- **Open Source**: `_pages/open-source.md` (renders entries from `_open_source/`)
+- **Certifications**: `_pages/certifications.html` (renders entries from `_certifications/`)
 
-## Getting Started
+## Local development
 
-1. **Clone** this repository:
+1. Install Ruby + Bundler.
+2. Install gems:
+
    ```bash
-   git clone https://github.com/mohiuddin-khan-shiam/mohiuddin-khan-shiam.github.io.git
+   bundle install
+   ```
+
+3. Run the site:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Open:
+
+   http://127.0.0.1:4000/
+
+## Optional: rebuild JS assets
+
+If you edit `assets/js/` and want to regenerate `assets/js/main.min.js`:
+
+```bash
+npm install
+npm run build:js
+```
