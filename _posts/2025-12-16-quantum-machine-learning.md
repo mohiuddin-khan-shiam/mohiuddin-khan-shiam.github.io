@@ -8,7 +8,7 @@ tags:
   - AI
 ---
 
-Quantum Machine Learning (QML) sits at a fascinating intersection: the promise of quantum computing and the practical needs of machine learning. I’m drawn to QML for the same reason many people are: it combines deep theory with a very real question—can new computational models expand what we can learn from data?
+Quantum Machine Learning (QML) sits at a fascinating intersection: the promise of quantum computing and the practical needs of machine learning. I’m drawn to QML for the same reason many people are: it combines deep theory with a very real question: can new computational models expand what we can learn from data?
 
 This post is a field guide to what’s happening right now in QML. It’s written for a broad audience: curious beginners, students, and practitioners who want a structured overview without the hype.
 
@@ -70,7 +70,7 @@ But the key question is always: does the quantum feature space offer a measurabl
 
 ## Trend 4: Better data encoding strategies
 
-Encoding classical data into quantum states is not a detail—it’s often the bottleneck.
+Encoding classical data into quantum states is not a detail, it’s often the bottleneck.
 
 Trends here include:
 

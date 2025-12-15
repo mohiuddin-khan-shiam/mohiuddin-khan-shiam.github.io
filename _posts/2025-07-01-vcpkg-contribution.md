@@ -8,7 +8,7 @@ tags:
   - Open Source
 ---
 
-Package management is one of those “infrastructure” topics that most users only notice when something breaks. That’s exactly why I find it meaningful: improvements in package tooling reduce friction for everyone—students setting up their first toolchain, engineers shipping production systems, and researchers trying to reproduce results.
+Package management is one of those “infrastructure” topics that most users only notice when something breaks. That’s exactly why I find it meaningful: improvements in package tooling reduce friction for everyone, students setting up their first toolchain, engineers shipping production systems, and researchers trying to reproduce results.
 
 vcpkg is a major part of the C++ ecosystem, and learning to contribute to it deepened my appreciation for the invisible work that keeps software ecosystems healthy.
 
@@ -31,7 +31,7 @@ My approach to contributing in this space is to:
 - reduce ambiguity in documentation and configuration,
 - and treat “developer experience” as a core feature.
 
-Even small improvements can help many downstream users who will never know your name—but will benefit from smoother builds.
+Even small improvements can help many downstream users who will never know your name, but will benefit from smoother builds.
 
 ## Release context (July 2025)
 

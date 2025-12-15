@@ -236,6 +236,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  certifications:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -285,6 +288,14 @@ defaults:
       author_profile: true
       share: true
       comment: true
+
+  # _certifications
+  - scope:
+      path: ""
+      type: certifications
+    values:
+      layout: single
+      author_profile: true
 
 
 # Sass/SCSS

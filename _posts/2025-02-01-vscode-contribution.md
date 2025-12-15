@@ -25,7 +25,7 @@ When a project sits in the daily workflow of so many developers, small improveme
 I approach contributions with three principles:
 
 - **Be evidence-driven**: start from an issue, a reproducer, or a clear user pain.
-- **Be careful and respectful**: a large project has context—review history, prior decisions, and style.
+- **Be careful and respectful**: a large project has context. Review history, prior decisions, and style.
 - **Make the work easy to review**: small, focused changes with clear explanations.
 
 Even when the change is small, the process builds skills: debugging, communication, and the discipline to write changes that other people can understand.
@@ -36,7 +36,7 @@ If you’re interested in what shipped around that time, here are the official r
 
 - https://code.visualstudio.com/updates/v1_102
 
-I like reading release notes not just to follow features, but to learn how improvements are explained, scoped, and communicated—because communication is part of engineering.
+I like reading release notes not just to follow features, but to learn how improvements are explained, scoped, and communicated, because communication is part of engineering.
 
 ## The real impact
 
