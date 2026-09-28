@@ -1,19 +1,32 @@
 ---
 layout: archive
-title: "Open Source"
+title: "Open Source Contributions"
 permalink: /open-source/
 author_profile: true
 ---
 
-I contribute to open-source projects that are widely used by developers and communities. I enjoy small, careful improvements that make tools easier to use, more reliable, or better documented.
-
 {% include base_path %}
 
-{% assign categories = "Microsoft Ecosystem|Artificial Intelligence & Machine Learning|Cloud Infrastructure & DevOps|Research & Education" | split: "|" %}
+<div class="page-intro-box">
+  <p>
+    <strong>Active contributor to 11+ global open-source organizations across 17+ mission-critical repositories powering millions of developers.</strong>
+    My open-source work emphasizes developer experience, core machine learning estimators, edge vision models, and distributed cloud workflows.
+  </p>
+  <div class="research-links-bar">
+    <a href="https://github.com/mohiuddin-khan-shiam" target="_blank" rel="noopener noreferrer" class="badge-link"><i class="fab fa-github"></i> GitHub Profile</a>
+    <a href="https://huggingface.co/mohiuddin-khan-shiam" target="_blank" rel="noopener noreferrer" class="badge-link"><i class="fas fa-robot"></i> Hugging Face</a>
+    <a href="https://kaggle.com/smmohiuddinkhanshiam" target="_blank" rel="noopener noreferrer" class="badge-link"><i class="fab fa-kaggle"></i> Kaggle</a>
+    <a href="https://rosalind.info/users/shiam/" target="_blank" rel="noopener noreferrer" class="badge-link"><i class="fas fa-dna"></i> Rosalind</a>
+  </div>
+</div>
+
+{% assign categories = "Microsoft Ecosystem|Artificial Intelligence & Machine Learning|Cloud Infrastructure & DevOps|Scientific Research & Education" | split: "|" %}
 {% for cat in categories %}
 {% assign cat_items = site.open_source | where: "category", cat | sort: "order" %}
 {% if cat_items.size > 0 %}
-## {{ cat }}
+<div class="category-header-wrap">
+  <h2 class="archive__subtitle category-title">{{ cat }}</h2>
+</div>
 
 {% for post in cat_items %}
   {% include archive-single.html %}
@@ -22,11 +35,9 @@ I contribute to open-source projects that are widely used by developers and comm
 {% endif %}
 {% endfor %}
 
-## Profiles
-
-- **GitHub**: https://github.com/mohiuddin-khan-shiam
-- **LinkedIn**: https://www.linkedin.com/in/s-m-mohiuddin-khan-shiam/
-- **Hugging Face**: https://huggingface.co/mohiuddin-khan-shiam
-- **Kaggle**: https://www.kaggle.com/smmohiuddinkhanshiam
-
-If you’d like to collaborate on open-source work, feel free to reach out via the [Contact]({{ '/contact/' | relative_url }}) page.
+<div class="card-callout">
+  <h3>Collaborations & Inquiries</h3>
+  <p>
+    Whether you are looking to collaborate on upstream open-source frameworks, benchmark deep learning architectures, or integrate edge AI solutions, please connect via the <a href="{{ '/contact/' | relative_url }}">Contact page</a>.
+  </p>
+</div>

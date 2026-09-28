@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "S. M. Mohiuddin Khan Shiam"
 title_separator          : "-"
 name                     : &name "S. M. Mohiuddin Khan Shiam"
-description              : &description "Research Associate at Global History Lab (CRASSH), University of Cambridge"
+description              : &description "Computer Science Graduate & Prospective Ph.D. Student | Machine Learning, Deep Learning, Edge AI & Explainable AI Researcher"
 url                      : "https://mohiuddin-khan-shiam.github.io" # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mohiuddin-khan-shiam/mohiuddin-khan-shiam.github.io"
@@ -23,24 +23,26 @@ author:
   avatar           : "profile.jpg"
   name             : "S. M. Mohiuddin Khan Shiam"
   pronouns         : ""
-  bio              : "Research Associate at Global History Lab, CRASSH, University of Cambridge"
-  location         : "Dhaka, Bangladesh"
-  employer         : "BRAC University"
+  bio              : "Computer Science Graduate & Prospective Ph.D. Student"
+  location         : "Chattogram / Dhaka, Bangladesh"
+  employer         : "BRAC University & Mahdy Research Academy"
   uri              : # URL
   email            : "mohiuddin.khan.shiam@gmail.com"
 
   # Academic websites
-  academia         : # URL
+  academia         : "https://bracu.academia.edu/shiam"
   arxiv            : # URL
   googlescholar    : "https://scholar.google.com/citations?user=PxNOguMAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0005-5504-2595"
   semantic         : # URL
-  ssrn             : # URL
+  ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=12781549"
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/S-M-Mohiuddin-Khan-Shiam"
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=60712607800"
+  sciprofiles      : "https://sciprofiles.com/profile/mohiuddin-khan-shiam"
+  figshare         : "https://figshare.com/authors/S_M_Mohiuddin_Khan_Shiam"
   zotero           : # URL
 
   # Repositories and software development
@@ -83,12 +85,14 @@ author:
 
 # Publication Category
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Published Journal Articles'
+  under_review:
+    title: 'Manuscripts Submitted & Under Review'
+  thesis:
+    title: 'Academic Thesis'
+  ongoing:
+    title: 'Ongoing Research'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -149,15 +153,20 @@ social:
     - "https://www.linkedin.com/in/s-m-mohiuddin-khan-shiam/"
     - "https://github.com/mohiuddin-khan-shiam"
     - "https://scholar.google.com/citations?user=PxNOguMAAAAJ"
-    - "https://www.researchgate.net/profile/S-M-Mohiuddin-Khan-Shiam"
-    - "https://x.com/Shiam_ID"
     - "https://orcid.org/0009-0005-5504-2595"
+    - "https://www.scopus.com/authid/detail.uri?authorId=60712607800"
+    - "https://www.researchgate.net/profile/S-M-Mohiuddin-Khan-Shiam"
+    - "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=12781549"
+    - "https://sciprofiles.com/profile/mohiuddin-khan-shiam"
+    - "https://bracu.academia.edu/shiam"
+    - "https://figshare.com/authors/S_M_Mohiuddin_Khan_Shiam"
     - "https://huggingface.co/mohiuddin-khan-shiam"
-    - "https://www.classcentral.com/@shiam"
     - "https://www.kaggle.com/smmohiuddinkhanshiam"
     - "https://rosalind.info/users/shiam/"
-    - "https://www.quora.com/profile/S-M-Mohiuddin-Khan-Shiam"
+    - "https://x.com/Shiam_ID"
     - "https://medium.com/@mohiuddin.khan.shiam"
+    - "https://www.classcentral.com/@shiam"
+    - "https://www.quora.com/profile/S-M-Mohiuddin-Khan-Shiam"
 
 # Analytics
 analytics:

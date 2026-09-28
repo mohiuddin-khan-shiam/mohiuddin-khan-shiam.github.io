@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.certifications %}
+<div class="page-intro-box">
+  <p>
+    Professional certifications and specialized continuous training across <strong>Agile & Project Management</strong>, <strong>Strategic Leadership</strong>, and <strong>Professional Communication</strong>.
+  </p>
+</div>
+
+{% for post in site.certifications reversed %}
   {% include archive-single.html %}
 {% endfor %}

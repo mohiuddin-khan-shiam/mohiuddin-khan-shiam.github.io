@@ -1,86 +1,163 @@
 ---
 permalink: /about/
 title: "About Me"
-excerpt: "A brief story of my journey in research, technology, and social impact."
+excerpt: "Computer Science Graduate & Prospective Ph.D. Student researching Machine Learning, Deep Learning, Edge AI, and Explainable AI."
 author_profile: true
 redirect_from: 
   - /about.html
 ---
 
-I’m S. M. Mohiuddin Khan Shiam. I care about using technology and innovation in ways that genuinely help people and improve society.
+<div class="bio-status-badge">
+  <span class="status-indicator"></span>
+  <span><strong>Current Status</strong>: CS Graduate (BRAC University) · Actively seeking <strong>Ph.D. positions & Graduate Research Opportunities</strong> abroad in Advanced Artificial Intelligence & Machine Learning.</span>
+</div>
 
-That mindset started early. As a child, I was drawn to technology and space because they felt full of possibility. They were full of problems worth exploring and ideas worth building, and they pushed me to stay curious and disciplined.
+## Biography & Career Objective
 
-Today, I carry that same curiosity into research, social service, and long-term impact. I’m committed to supporting the United Nations Sustainable Development Goals, with particular attention to education, health, human rights, environmental protection, and animal welfare. I enjoy working across disciplines because the most meaningful solutions usually sit at the intersection of fields.
+I am **S. M. Mohiuddin Khan Shiam**, a Computer Science graduate with strong academic grounding in software systems, artificial intelligence, and peer-reviewed machine learning research. My long-term goal is to pursue a **Ph.D. abroad in advanced artificial intelligence**, focusing on computationally efficient architectures, explainable intelligence, and real-time edge vision.
 
-Along the way, professional and extracurricular responsibilities helped me develop leadership, communication, and strategic planning skills. Those experiences reinforced my belief that collaboration, adaptability, and continuous learning are not “extras”. They are the foundation of doing good work.
+My research spans **Machine Learning**, **Deep Learning**, **Computer Vision**, **Explainable AI (XAI)**, **High-Frequency Time-Series Forecasting**, **Quantum Machine Learning (QML)**, and **Medical Image Diagnostics**. I have authored peer-reviewed research published in international Q1 journals (Elsevier *Array*), submitted manuscripts to *Scientific Reports* (Nature Portfolio), and engineered ultra-compact neural models like **Nano3D** (a 486K-parameter 3D-CNN operating at 7.19 ms edge latency).
 
-I’m grateful to my parents, siblings, and teachers for their support and guidance. Their values shaped how I approach challenges: with humility, perseverance, and kindness.
+Beyond academic research, I am a passionate open-source contributor across **11+ global open-source organizations** and **17+ mission-critical repositories**—including the Microsoft developer ecosystem (VS Code, Windows Terminal, WSL, AutoGen), foundational ML libraries (scikit-learn, Keras, Ultralytics, OpenVINO), and distributed cloud infrastructure (Kubernetes, Apache Airflow, Flux CD).
 
-Outside of work, I enjoy traveling, playing football, and spending time in the world of Harry Potter. These moments keep me grounded and remind me that growth often comes from reflection.
+---
 
-I believe deeply in the potential of human kindness and the transformative power of innovation. I’m always open to connecting with people who care about building a brighter, more equitable future.
+## Research Interests
 
-## At a glance
+<div class="skills-grid">
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-brain"></i> Machine & Deep Learning</div>
+    <p>Efficient neural architectures, 3D Convolutional Neural Networks (3D-CNNs), spatiotemporal modeling, ConvLSTM, and Bayesian hyperparameter optimization.</p>
+  </div>
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-eye"></i> Computer Vision & Edge AI</div>
+    <p>Real-time surveillance anomaly detection, edge-device model compression, latency minimization on embedded hardware, and Vision Transformers (ViT, ViViT).</p>
+  </div>
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-magnifying-glass-chart"></i> Explainable AI (XAI)</div>
+    <p>Spatiotemporal Grad-CAM saliency mapping, TreeSHAP, Kernel SHAP, LIME, and Partial Dependence Plots (PDP) for trustworthy and verifiable predictions.</p>
+  </div>
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-chart-line"></i> Time-Series Forecasting</div>
+    <p>High-frequency macro-financial modeling, multi-tier hybrid gradient-boosted ensembles (XGBoost, LightGBM, CatBoost), and non-stationary volatility forecasting.</p>
+  </div>
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-atom"></i> Quantum Machine Learning</div>
+    <p>Hybrid quantum-classical algorithms, Parameterized Quantum Circuits (PQCs), and Variational Quantum Classifiers (VQCs) utilizing Qiskit and PennyLane.</p>
+  </div>
+  <div class="skill-card">
+    <div class="skill-card__title"><i class="fa-solid fa-heart-pulse"></i> Medical Image Diagnostics</div>
+    <p>Volumetric 3D Vision Transformers and CNNs for acute ischemic stroke lesion segmentation and oncological screening with interpretable attribution.</p>
+  </div>
+</div>
 
-- Research Associate at Global History Lab (CRASSH), University of Cambridge
-- Based in Dhaka, Bangladesh
-- Interests: research, technology, and social impact (aligned with the United Nations Sustainable Development Goals)
+---
 
 ## Education
 
-**BRAC University**  
-*Bachelor of Science - BS, Computer Science* (Sep 2021 - Sep 2025)
-- **Activities and societies**: Treasurer, IEEE Computer Society BRACU Student Branch Chapter (2024). Actively engaged in organizing events, managing finances, and fostering a collaborative environment for tech enthusiasts.
-- During my time at BRAC University, I gained comprehensive knowledge and hands-on experience in a wide range of computer science disciplines. My coursework included core areas such as Python Programming, Object-Oriented Programming, Data Structures and Algorithms, and Discrete Mathematics, as well as advanced topics like Artificial Intelligence, Machine Learning, Neural Networks, Quantum Computing, and Blockchain.
-- I also explored specialized fields such as Natural Language Processing, Bioinformatics, Internet of Things (IoT), and Reinforcement Learning. Additionally, I developed practical expertise in areas like Software Engineering, Database Systems, Computer Networks, Ethical Hacking, and High-Performance Computing.
-- This diverse curriculum has equipped me with a solid foundation in computational theory, problem-solving, and emerging technologies, preparing me to tackle complex challenges in the dynamic field of computer science.
+### **BRAC University**  
+*Bachelor of Science in Computer Science* · **2021 – 2026** | Dhaka, Bangladesh  
+- **Thesis**: *Deep Learning Frameworks for Suspicious Activity Detection* (Supervised by Prof. Dr. Amitabha Chakrabarty & Prof. Dr. Md. Golam Rabiul Alam). Proposed Nano3D, an ultra-compact 3D-CNN achieving 88.7% accuracy, 0.947 AUC, and 7.19 ms latency with Grad-CAM visual interpretability.
+- **Leadership**: Treasurer, IEEE BRAC University Student Branch (2024). Directed branch fiscal budgeting, financial tracking, transparent accounting, and co-organized major workshops including "Smart City & IoT".
+- **Coursework Highlights**: Artificial Intelligence, Machine Learning, Neural Networks, Computer Vision, Data Structures and Algorithms, Object-Oriented Programming, Discrete Mathematics, Software Engineering, Database Systems, Computer Networks, Quantum Computing, Natural Language Processing, and High-Performance Computing.
 
-**Hazera-Taju Degree College**  
-*Higher Secondary Certificate, Science* (Jul 2018 - Apr 2020)
-- **Grade**: 5 out of 5
-- At Hazera-Taju Degree College, I pursued my Higher Secondary studies, focusing on a diverse curriculum that included Bangla, English, Higher Mathematics, Information & Technology, Physics, Chemistry, and Biology.
-- This well-rounded education provided me with a strong foundation in analytical thinking, problem-solving, and communication skills, while fostering a deeper understanding of both the sciences and humanities.
+### **Hazera-Taju Degree College**  
+*Higher Secondary Certificate (HSC) – Science Group* · **2018 – 2020** | Chattogram, Bangladesh  
+- Curriculum: Physics, Chemistry, Higher Mathematics, Biology, Information & Communication Technology, Bangla, and English.
+- Recognized with Academic Excellence in National Board Examinations.
 
-**Nasirabad Govt. High School, Chattogram**  
-*Primary Education Completion, Junior School Certificate, and Secondary School Certificate, Science* (Jan 2012 - Feb 2018)
-- **Grade**: 5 out of 5
-- **Activities and societies**: I am the former leader of Nasirabad Science Club. Nasirabad Science Club supported me in hands-on projects spanning Physics, Chemistry, and Biology. I learned real-life experiments here, such as osmosis in potato slices, static electricity experiments, and color-changing chemical reactions. I gained practical insights and enriched my scientific understanding. Also, I am the Defender for Nasirabad Football Team. My job is to protect the goal through smart positioning and defensive techniques.
-- **Qualifications**:
-  - Primary Education Completion (PEC): Successfully completed primary education after 5th year national exam.
-  - Junior School Certificate (JSC): Completed lower secondary education after 8th grade public exam.
-  - Secondary School Certificate (SSC): Passed public exam after 10th grade, covering both 9th and 10th-grade material.
+### **Nasirabad Govt. High School**  
+*Secondary School Certificate (SSC) – Science Group* · **2012 – 2018** | Chattogram, Bangladesh  
+- Strong foundational grounding in analytical mathematics and scientific inquiry.
+- Active participant in science fairs, hands-on laboratory experiments, and school sports.
 
-**St. Xavier's School, Chittagong**  
-*Primary Education* (Jan 2007 - Dec 2011)
-- I completed my primary education at St. Xavier's School, an institution known for its academic excellence and values-based education. Established in 1956 and located in Pahartali, it provided a supportive environment that shaped the foundation of my learning.
+---
 
-## Experience
+## Work & Research Experience
 
-**Research Associate**  
-*Global History Lab, CRASSH, University of Cambridge*
+### **Machine Learning Researcher**  
+**Mahdy Research Academy** · Dhaka, Bangladesh (Remote) | **2024 – Present** (2026)  
+- Conducted advanced research in high-frequency time-series forecasting, neural networks, and Bayesian-tuned hybrid ensemble architectures.
+- Engineered end-to-end machine learning data pipelines and authored peer-reviewed scientific articles published in international Q1 journals (Elsevier *Array*).
+- Formulated interpretable frameworks utilizing SHAP, LIME, and Partial Dependence Plots for policy-grade macroeconomic interpretability.
 
-**Machine Learning Researcher**  
-*Mahdy's Research Academy · Part-time* (Jan 2024 - Present)
-- Dhaka, Bangladesh · Remote
+### **Treasurer**  
+**IEEE BRAC University Student Branch** · Dhaka, Bangladesh | **2024**  
+- Managed student branch fiscal budgeting, financial auditing, funding allocations, and transparent institutional reporting.
+- Co-organized major technical workshops, seminars, and training programs, including the flagship "Smart City & IoT" workshop.
 
-**Treasurer**  
-*IEEE BRAC University Student Branch · Contract* (Jan 2024 - Dec 2024)
-- Dhaka, Bangladesh · On-site
-- Oversee the branch’s financial activities, including budget preparation, financial planning, and fund allocation.
-- Maintain accurate records of all financial transactions and provide regular financial reports to the committee.
+---
 
-## Competences
-**Skills**: Leadership, Critical Thinking, Communication, Problem-Solving, Teamwork  
-**Languages**: Bangla, English  
-**Causes**: Animal Welfare, Children, Environment, Human Rights, Science and Technology, Health, Education
+## Technical Skills
+
+- **Programming Languages**: Python, C++, Java, MATLAB, JavaScript, TypeScript, SQL, HTML5/CSS3, PHP, Bash/Shell.
+- **Machine Learning & Deep Learning**: PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, LightGBM, CatBoost, OpenCV, Pandas, NumPy, SciPy, Matplotlib, Seaborn.
+- **AI Paradigms & Methods**: 3D CNNs, ConvLSTM, Vision Transformers (ViT, ViViT), Explainable AI (SHAP, LIME, Grad-CAM), Hybrid Ensembles, Bayesian Optimization, Time-Series Forecasting, Quantum Machine Learning (Qiskit, PennyLane).
+- **Web & Cloud Technologies**: Next.js, React, Node.js, Express, MongoDB, RESTful APIs, Docker, Kubernetes, Linux/Unix, Git, GitHub, Overleaf, $\LaTeX$, VS Code.
+
+---
 
 ## Honors & Awards
-**RS-60 Cricket Cup Champion**  
-*BRAC University* (Jul 2022)
-- Part of the winning team for the cricket event during Residential Semester.
 
-## Licenses & Certifications
-For a full list, see the Certifications page:
+- **Top 10% Global Talent** | Issued by *The Talent Games*, Nov. 2024.
+- **RS-60 Cricket Cup Champion** | Issued by *BRAC University*, Jul. 2022.
+- **Academic Excellence in National Board Examinations**: Awarded in the Higher Secondary Certificate (HSC 2020), Science Group.
 
-- [Certifications]({{ '/certifications/' | relative_url }})
+---
+
+## Professional References
+
+<div class="references-grid">
+
+  <div class="reference-card">
+    <h4>1. Dr. Md. Golam Rabiul Alam</h4>
+    <p class="ref-title">Professor, Department of Computer Science & Engineering</p>
+    <p class="ref-inst">School of Data & Sciences, BRAC University</p>
+    <p class="ref-contact"><i class="fa-solid fa-envelope"></i> <a href="mailto:rabiul.alam@bracu.ac.bd">rabiul.alam@bracu.ac.bd</a></p>
+    <div class="ref-links">
+      <a href="https://scholar.google.com/citations?user=dZrq0V0AAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://orcid.org/0000-0002-3909-3733" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=56434444300" target="_blank" rel="noopener noreferrer"><i class="ai ai-scopus"></i> Scopus</a>
+      <a href="https://www.bracu.ac.bd/about/people/dr-md-golam-rabiul-alam" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Faculty Profile</a>
+    </div>
+  </div>
+
+  <div class="reference-card">
+    <h4>2. Dr. Mahdy Rahman Chowdhury</h4>
+    <p class="ref-title">Professor, Department of Electrical & Computer Engineering</p>
+    <p class="ref-inst">North South University</p>
+    <p class="ref-contact"><i class="fa-solid fa-envelope"></i> <a href="mailto:mahdy.chowdhury@northsouth.edu">mahdy.chowdhury@northsouth.edu</a></p>
+    <div class="ref-links">
+      <a href="https://scholar.google.com/citations?user=zJ26gKAAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://orcid.org/0000-0001-9252-8418" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=36997099700" target="_blank" rel="noopener noreferrer"><i class="ai ai-scopus"></i> Scopus</a>
+      <a href="http://www.northsouth.edu/faculty-members/seas/ece/mahdy-rahman-chowdhury.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Faculty Profile</a>
+    </div>
+  </div>
+
+  <div class="reference-card">
+    <h4>3. Dr. Amitabha Chakrabarty</h4>
+    <p class="ref-title">Professor, Department of Computer Science & Engineering</p>
+    <p class="ref-inst">School of Data & Sciences, BRAC University</p>
+    <p class="ref-contact"><i class="fa-solid fa-envelope"></i> <a href="mailto:amitabha@bracu.ac.bd">amitabha@bracu.ac.bd</a></p>
+    <div class="ref-links">
+      <a href="https://scholar.google.com/citations?user=eX70O9IAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://orcid.org/0000-0003-4560-6469" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=23089459500" target="_blank" rel="noopener noreferrer"><i class="ai ai-scopus"></i> Scopus</a>
+      <a href="https://www.bracu.ac.bd/about/people/dr-amitabha-chakrabarty" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Faculty Profile</a>
+    </div>
+  </div>
+
+  <div class="reference-card">
+    <h4>4. Md. Ariful Islam Sanim</h4>
+    <p class="ref-title">Ph.D. Student & Graduate Teaching Assistant in Statistics</p>
+    <p class="ref-inst">University of South Carolina, USA</p>
+    <p class="ref-contact"><i class="fa-solid fa-envelope"></i> <a href="mailto:msanim@email.sc.edu">msanim@email.sc.edu</a></p>
+    <div class="ref-links">
+      <a href="https://scholar.google.com/citations?user=oZ_4c-cAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://www.researchgate.net/profile/Md-Ariful-Islam-Sanim" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i> ResearchGate</a>
+      <a href="https://www.linkedin.com/in/md-ariful-islam-sanim" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+
+</div>
